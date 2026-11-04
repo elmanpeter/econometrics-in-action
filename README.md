@@ -1,5 +1,6 @@
 # Econometrics in Action
-## Budget Absorption and Development Outcomes under Devolution in Kenya
+## Does Budget Absorption Predict Development? Evidence from Kenya's 47 Counties, 2013–2025
+*Treasury disbursements, development-budget execution and project delivery under devolution*
 
 **Author:** Peter Elman · **Date:** 3 November 2026
 
@@ -74,4 +75,4 @@ Code and text: MIT (see `LICENSE`). Data files are compiled from public document
 
 ### Citation
 
-> Elman, P. (2026). *Econometrics in Action: Budget Absorption and Development Outcomes under Devolution in Kenya, FY2013/14–FY2024/25.* https://github.com/elmanpeter/econometrics-in-action
+> Elman, P. (2026). *Does Budget Absorption Predict Development? Evidence from Kenya's 47 Counties, 2013–2025.* Econometrics in Action. https://github.com/elmanpeter/econometrics-in-action
