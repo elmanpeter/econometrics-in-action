@@ -1,0 +1,37 @@
+Devolution can transform Kenya's economy — and faster than most people think. The data show us how.
+
+Over the past weeks I built a 47-county, 12-year dataset (FY2013/14–2024/25) from Controller of Budget, CRA, Treasury and KNBS records to ask one question: does the development absorption rate — the number we use to judge counties — actually predict development?
+
+The headline answer is no. But buried in that result is the most hopeful finding of the whole study.
+
+💡 What the evidence says
+
+→ Money reaches counties. KES 4.36 trillion since 2013, and Treasury releases exceeded county spending in every single year. The constitutional promise has been kept.
+
+→ Where counties actually spend on development, growth follows quickly. A 10 % increase in development spending per person is associated with ~0.4 pp faster real GCP growth the very next year (p < 0.01). Not a decade later. Next year.
+
+→ The counties that received the most per capita — the arid north, long written off — grew 1.9 percentage points a year faster than the rest in 2020–24 and resisted the drought-era poverty shock best. Devolution's redistributive design works where it is allowed to.
+
+→ Counties that executed their development budgets consistently for a decade show measurably smaller poverty increases. Discipline compounds.
+
+⚠️ What is holding it back
+
+→ Only 27 % of county spending goes to development — below the 30 % the PFM Act requires. KES 867 billion of approved development budgets went unspent.
+
+→ Pending bills have grown from KES 35 bn to KES 183 bn. Unpaid contractors stall projects; only 30 % of flagship projects were complete in FY2022/23.
+
+→ Absorption swings wildly year to year — 60 % of its variation is noise from cash-flow timing, procurement cycles and election years, not capacity.
+
+🇰🇪 My conviction
+
+None of these constraints is structural. They are choices: how budgets are set, when exchequer releases arrive, whether contractors are paid, whether the law's 30 % floor is honoured in expenditure and not just on paper.
+
+The growth response to real development spending is fast — one fiscal year. The redistributive machinery already reaches the places that need it most. What stands between Kenya and a visible economic lift from devolution is fiscal discipline, adherence to the PFM Act, and professional execution of what is already budgeted.
+
+Get those three right and the KES 867 billion that sat unspent becomes roads, water, health centres and markets — with a growth dividend the data say arrives within a year, not a generation.
+
+Devolution is not the problem. Unfinished execution is. And execution is fixable.
+
+Full analysis, data and methods are open on GitHub — link in the first comment. I would value the views of county finance officers, CRA/COB colleagues and fellow economists.
+
+#Kenya #Devolution #PublicFinance #FiscalDiscipline #CountyGovernments #Economics #Econometrics #DataForDevelopment #OpenData #KNBS
