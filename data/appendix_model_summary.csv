@@ -1,0 +1,26 @@
+#,Section,Model,Estimator,Dependent variable,Sample,N,Absorption,Spending,Fixed effects,SEs,R²,Notes
+1,8.1,(a) budget size,PanelOLS (FE),Dev. absorption (%),"47 counties, FY13/14–24/25 validated",438,—,—,county + year,clustered (county),0.019,ln dev. budget p.c.: -10.756 (5.015)**
+2,8.1,(b) + revenue mix,PanelOLS (FE),Dev. absorption (%),county-years with revenue tables,125,—,—,county + year,clustered (county),0.135,OSR share: 334.691 (103.732)***
+3,9,"(1) Pooled OLS, year FE",Pooled OLS,Real GCP growth (%),"47 counties, 2020–24",235,0.011 (0.147),—,year,clustered (county),0.192,
+4,9,"(2) Pooled OLS + dev. spending p.c., year FE",Pooled OLS,Real GCP growth (%),"47 counties, 2020–24",235,-0.124 (0.213),0.697 (0.602),year,clustered (county),0.196,
+5,9,(3) County + year FE,PanelOLS (FE),Real GCP growth (%),"47 counties, 2020–24",235,0.029 (0.210),—,county + year,clustered (county),0.0,
+6,9,(4) County + year FE + dev. spending p.c.,PanelOLS (FE),Real GCP growth (%),"47 counties, 2020–24",235,-0.248 (0.432),1.492 (1.974),county + year,clustered (county),0.003,
+7,9,"(5) County + year FE, regressors lagged one FY",PanelOLS (FE),Real GCP growth (%),"47 counties, 2020–24",218,-0.364 (0.378),4.248 (1.610)***,county + year,clustered (county),0.045,
+8,9,"(6) As (4), extended panel 2014–2025 (validated early rows)",PanelOLS (FE),Real GCP growth (%),extended 2014–25,391,0.569 (0.427),-2.095 (1.997),county + year,clustered (county),0.006,
+9,9,(B1) between-county,OLS,Mean real GCP growth 2020–24,47 counties (cross-section),47,-0.021 (0.022),0.253 (0.639),none,HC1,0.086,
+10,9,(B2) between-county + arid,OLS,Mean real GCP growth 2020–24,47 counties (cross-section),47,-0.011 (0.020),-0.525 (0.614),none,HC1,0.216,arid: 1.869 (0.702)***
+11,10,(1),OLS,Δ poverty 2015/16→2022 (pp),47 counties,47,-0.062 (0.090),—,none,HC1,0.153,baseline poverty: -0.147 (0.065)**
+12,10,(2),OLS,Δ poverty 2015/16→2022 (pp),47 counties,47,-0.111 (0.080),5.901 (2.737)**,none,HC1,0.23,baseline poverty: -0.237 (0.083)***
+13,10,(3),OLS,Δ poverty 2015/16→2022 (pp),47 counties,47,-0.178 (0.073)**,6.261 (2.429)***,none,HC1,0.31,baseline poverty: -0.332 (0.093)***
+14,10,(4) + arid,OLS,Δ poverty 2015/16→2022 (pp),47 counties,47,-0.179 (0.075)**,5.042 (2.463)**,none,HC1,0.332,baseline poverty: -0.388 (0.119)***
+15,10,(5) non-arid only,OLS,Δ poverty 2015/16→2022 (pp),39 non-arid counties,39,-0.149 (0.085)*,6.198 (2.736)**,none,HC1,0.329,baseline poverty: -0.408 (0.124)***
+16,11,(1) 6-yr mean absorption,OLS,Flagship projects complete (%),"46 counties, FY2022/23",46,0.426 (0.560),—,none,HC1,0.017,
+17,11,(2) FY22/23 absorption,OLS,Flagship projects complete (%),"46 counties, FY2022/23",46,0.251 (0.264),—,none,HC1,0.016,
+18,11,"(3) + spending, arid",OLS,Flagship projects complete (%),"46 counties, FY2022/23",46,0.240 (0.661),5.012 (7.482),none,HC1,0.03,
+19,12,robustness: nominal,PanelOLS (FE),Real GCP growth (%),47 counties,235,-0.450 (0.461),2.450 (2.234),county + year,clustered (county),0.007,
+20,12,robustness: no Nairobi,PanelOLS (FE),Real GCP growth (%),47 counties,230,-0.226 (0.441),1.309 (2.044),county + year,clustered (county),0.002,
+21,12,robustness: lead g,PanelOLS (FE),Real GCP growth t+1 (%),47 counties,188,-0.288 (0.510),3.784 (2.077)*,county + year,clustered (county),0.034,
+22,12,robustness: excl 2020,PanelOLS (FE),Real GCP growth (%),47 counties,188,-0.255 (0.557),1.766 (2.393),county + year,clustered (county),0.004,
+23,12,robustness: excl arid,PanelOLS (FE),Real GCP growth (%),47 counties,195,-0.020 (0.351),0.469 (1.500),county + year,clustered (county),0.001,
+24,12,robustness: spend only,PanelOLS (FE),Real GCP growth (%),47 counties,235,—,0.575 (0.968),county + year,clustered (county),0.001,
+25,12,robustness: ext. lead g,PanelOLS (FE),Real GCP growth t+1 (%),extended panel,344,-0.553 (0.552),4.246 (2.258)*,county + year,clustered (county),0.029,

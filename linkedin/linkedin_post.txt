@@ -1,0 +1,21 @@
+KES 4.36 trillion has flowed from the National Treasury to Kenya's 47 counties since 2013. Every year the Controller of Budget tells us counties spend only about half of their development budgets — and that "absorption rate" has become the number by which devolution is judged.
+
+I spent the past weeks testing a simple question: does a higher development absorption rate actually predict development?
+
+I built a 47-county × 12-year panel from COB, CRA, Treasury and KNBS data (six of the early COB reports had to be recovered from the Wayback Machine) and ran it through fixed-effects panel regressions, a county cluster bootstrap and a neural-network benchmark. Five findings:
+
+1️⃣ Development absorption has ranged 36–65 % with no trend in twelve years, while recurrent absorption sits at 83–93 %. KES 867 bn of development budgets went unspent.
+
+2️⃣ Absorption is mostly noise: 60 % of the variation is year-to-year movement within the same county. The arid north (Mandera 79 %, Marsabit 73 %) tops the table; Nairobi (40 %), Kisumu and Nakuru sit at the bottom.
+
+3️⃣ The absorption rate has NO detectable association with real Gross County Product growth or project completion — in 14 specifications, a bootstrap, and a neural network free to find any non-linear pattern.
+
+4️⃣ What does predict growth is how much is spent per person: +10 % development spending → ~+0.4 pp growth the following year. The arid counties, the biggest per-capita recipients, grew 1.9 pp/yr faster and resisted the poverty shock best.
+
+5️⃣ Only 30 % of flagship county projects were complete in FY2022/23, and pending bills have reached KES 183 bn. Paying old bills counts as "absorption" without finishing anything new.
+
+My read: devolution has redistributed resources and that shows up in outcomes — but the indicator we use to judge counties measures cash out the door, not development delivered. Multi-year completion records would tell us far more than annual absorption rates.
+
+Swipe through the carousel for the figures and maps. The full notebook, data and provenance logs are open on GitHub (link in the first comment) — feedback and corrections welcome, especially from anyone working on county public finance.
+
+#Kenya #Devolution #PublicFinance #Econometrics #DataScience #CountyGovernments #OpenData #Economics #KNBS #Python
