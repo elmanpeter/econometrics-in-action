@@ -42,11 +42,13 @@ Overall poverty fell from 94.3% in 2005/06 to 79.4% in 2015/16, then rose to 82.
 
 The baseline window matters. Poverty declined 14.9 percentage points from 2005/06 to 2015/16, increased 3.3 points from 2015/16 to 2022, and remained 11.6 points below the 2005/06 estimate over the full comparison. The earliest figure is a historical district-to-county mapping, and survey instruments differ; these changes should not be read as a steady trajectory or a causal devolution effect.
 
+National benchmarks reinforce the scale of the remaining gap: Turkana's 2022 poverty headcount was 42.9 percentage points above Kenya's, and food poverty was 32.5 points higher. In the 2015/16 survey, secondary school net attendance was 29.1 points below the national rate. The benchmark table excludes the mapped 2005/06 poverty value and preserves each indicator's survey year and unit.
+
 ### Economic structure and own-source revenue
 
 Agriculture, forestry, and fishing accounted for a reported 46.08% of county GCP in 2013 and 35.91% in 2020. Turkana's share of national GCP rose from 1.02% to 1.10%. Market access and connectivity remain constraints: the 2019 Rural Access Index was 16%, phone ownership was 16.6%, and internet use was 6.9%. COB reports show hospital/FIF revenue, cess, business permits, parking/transport fees, and fish-market fees among local own-source streams. In FY2022/23, cess was the largest reported ordinary OSR stream at KSh 78 million (43.8% of OSR). The Turkana Biashara Fund disbursed 3% of its FY2022/23 budget, and the Cooperative Enterprise Development Fund disbursed almost none.
 
-Tullow Oil land-rent arrears drove the FY2023/24 revenue spike, which was not sustained. The COB FY2024/25 narrative and detailed table contain an unresolved arithmetic conflict: the narrative states total OSR of KSh 200.41 million while listing FIF of KSh 229.69 million and other OSR of KSh 171.14 million; Table 3.517 sums the latter two values to KSh 400.83 million. This working draft uses the detailed table for calculations and flags the discrepancy for verification before formal submission.
+Tullow Oil land-rent arrears drove the FY2023/24 revenue spike, which was not sustained. The COB FY2024/25 narrative and detailed table contain an unresolved arithmetic conflict: the narrative states total OSR of KSh 200.41 million while listing FIF of KSh 229.69 million and other OSR of KSh 171.14 million; Table 3.517 sums the latter two values to KSh 400.83 million. This working draft uses the detailed table for calculations and flags the discrepancy for verification before formal submission. A sensitivity check finds FY2024/25 OSR less recorded FIF at KSh 171.1 million, 10.9% below the FY2019/20–FY2022/23 reference mean of KSh 192.0 million; because AIA is not separately available in every year, this is not a pure recurring-revenue estimate.
 
 ### Partner finance and resilience
 
@@ -71,7 +73,11 @@ The analysis is observational and lacks an untreated Turkana counterfactual. Out
 ## References and Provenance
 
 - Office of the Controller of Budget, *County Governments Budget Implementation Review Reports*, FY2013/14–FY2024/25; Turkana county narrative and revenue-performance tables, including Tables 3.293 and 3.517.
+- OCOB, FY2023/24 report, Turkana Table 3.293 and Figures 165–166: https://cob.go.ke/download/county-governments-budget-implementation-report-for-the-financial-year-2023-24/?wpdmdl=16104
+- OCOB, FY2024/25 report, Turkana Tables 3.517–3.520 and 3.528–3.529: https://cob.go.ke/download/county-governments-budget-implementation-report-fy-2024-25/?wpdmdl=16263
 - Commission on Revenue Allocation, *County Fact Sheets*, 3rd edition.
-- Kenya National Bureau of Statistics, *Kenya Population and Housing Census* 2009 and 2019; *Basic Report on Well-Being in Kenya* (KIHBS 2015/16); *The Kenya Poverty Report 2022*; *Gross County Product* editions 2019, 2023, and 2025.
+- KNBS, *Basic Report on Well-Being in Kenya* (KIHBS 2015/16), Table 4.3: https://statistics.knbs.or.ke/nada/index.php/catalog/13/download/60
+- KNBS, *The Kenya Poverty Report 2022*, Tables 4.3–4.5: https://www.knbs.or.ke/wp-content/uploads/2024/10/The-Kenya-Poverty-Report-2022.pdf
+- KNBS, *Kenya Population and Housing Census* 2009 and 2019; *Gross County Product* editions 2019, 2023, and 2025 (edition URLs and tables are itemized in `data/outcome_sources.md`).
 - KNBS and ICF, *Kenya Demographic and Health Survey* 2014 and 2022 Turkana county fact sheets.
 - Detailed source selection, table/page references, data cleaning, and known gaps are recorded in the accompanying `data/sources.md` and `data/outcome_sources.md`.
